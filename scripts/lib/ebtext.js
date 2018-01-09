@@ -421,10 +421,10 @@ var EarthboundText = {
         this.flavor_assets[this.flavors[i]] = {
           arrowsm:  this.preload_image('assets/flavors/' + this.flavors[i] + '/arrowsm.png'),
           arrowbig: this.preload_image('assets/flavors/' + this.flavors[i] + '/arrowbig.png'),
-          dialog:   this.preload_image('assets/flavors/' + this.flavors[i] + '/dialog.png'),
+          dialog:   this.preload_image('assets/flavors/' + this.flavors[i] + '/dialog.png')
         };
 
         this.flavor_assets[this.flavors[i]].glyphs = (this.flavors[i] == 'plain') ? this.preload_image('assets/text/plain.png') : this.preload_image('assets/text/flavored.png');
       }
-    },
+    }
 };
